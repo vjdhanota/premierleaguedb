@@ -1,0 +1,2 @@
+Nov 28, 2016 10:49:05 AM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id

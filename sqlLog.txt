@@ -1,0 +1,220 @@
+Nov 25, 2016 4:10:24 PM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 25, 2016 4:10:27 PM proj sqlLog
+INFO: SELECT fname,lname, player.T_name FROM player INNER JOIN team ON player.T_name = team.T_name WHERE player.T_name ='Stoke City'
+Nov 25, 2016 4:10:28 PM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 25, 2016 4:42:16 PM proj sqlLog
+INFO: INSERT INTO game VALUES (DEFAULT,Stoke City,Arsenal FC,2016-12-5,W)
+Nov 25, 2016 4:42:54 PM proj sqlLog
+INFO: INSERT INTO game VALUES (DEFAULT,],,,)
+Nov 25, 2016 4:43:23 PM proj sqlLog
+INFO: INSERT INTO game VALUES (DEFAULT,Stoke City,Arsenal FC,2016-6-12,W)
+Nov 25, 2016 4:47:40 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, Stoke City,Arsenal,12-5-1,W)
+Nov 25, 2016 4:48:57 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, Stoke,City,-1,-1)
+Nov 25, 2016 4:49:52 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, Stoke City,Arsenal FC,12312,w)
+Nov 25, 2016 4:50:51 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, Stoke City,Arsenal FC,12-15-1,W)
+Nov 25, 2016 4:53:38 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, 'Stoke City','Arsenal FC','12-15-3','W')
+Nov 25, 2016 4:53:59 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, 'Stoke City','Arsenal FC','12-1-1','W')
+Nov 26, 2016 11:45:56 AM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 26, 2016 11:46:15 AM proj sqlLog
+INFO: SELECT fname,lname, player.T_name FROM player INNER JOIN team ON player.T_name = team.T_name WHERE player.T_name ='Stoke City'
+Nov 26, 2016 11:46:42 AM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, 'Arsenal FC','Chelsea FC','2016-12-3','W')
+Nov 26, 2016 1:09:38 PM proj sqlLog
+INFO: SELECT * FROM game ORDER BY game_id desc limit 2
+Nov 27, 2016 12:51:29 PM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 27, 2016 12:51:39 PM proj sqlLog
+INFO: SELECT fname,lname, player.T_name FROM player INNER JOIN team ON player.T_name = team.T_name WHERE player.T_name ='Stoke City'
+Nov 27, 2016 12:51:49 PM proj sqlLog
+INFO: SELECT * FROM game ORDER BY game_id desc limit 1
+Nov 27, 2016 1:05:59 PM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 27, 2016 1:06:04 PM proj sqlLog
+INFO: SELECT fname,lname, player.T_name FROM player INNER JOIN team ON player.T_name = team.T_name WHERE player.T_name ='Stoke City'
+Nov 27, 2016 1:06:09 PM proj sqlLog
+INFO: SELECT * FROM game ORDER BY game_id desc limit 2
+Nov 27, 2016 1:37:01 PM proj sqlLog
+INFO: INSERT INTO game VALUES(DEFAULT, 'Stoke City','Arsenal FC','12-1-16','L')
+Nov 27, 2016 1:37:04 PM proj sqlLog
+INFO: SELECT * FROM game ORDER BY game_id desc limit 1
+Nov 27, 2016 2:47:01 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL ORDER BY game_id desc limit 
+Nov 27, 2016 2:48:19 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL ORDER BY game_id desc limit 
+Nov 27, 2016 2:49:18 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL 
+Nov 27, 2016 2:49:45 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL 
+Nov 27, 2016 2:49:53 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL 
+Nov 27, 2016 2:50:07 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL 
+Nov 27, 2016 3:02:45 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = 2, visiting_team_goals = 1WHERE home_team_goals IS NULL AND home_team_name = 'Watford FC' AND mdate = '2016-11-27'
+Nov 27, 2016 3:05:15 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = 2, visiting_team_goals = 1WHERE home_team_goals IS NULL AND home_team_name = Watford FC AND mdate = 2016-11-27
+Nov 27, 2016 3:10:27 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '2', visiting_team_goals = '1' WHERE home_team_goals IS NULL AND home_team_name = 'Watford FC' AND mdate = '2016-11-27'
+Nov 27, 2016 3:11:07 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '2', visiting_team_goals = '1' WHERE home_team_goals IS NULL AND home_team_name = 'stoke' AND mdate = '11111'
+Nov 27, 2016 3:41:02 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '1', visiting_team_goals = '2' WHERE home_team_goals IS NULL AND home_team_name = 'asd' AND mdate = '2016-11-2'
+Nov 27, 2016 3:41:27 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '2', visiting_team_goals = '1' WHERE home_team_goals IS NULL AND home_team_name = 'Watford FC' AND mdate = '2016-11-27'
+Nov 27, 2016 3:42:41 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '2', visiting_team_goals = '1' WHERE home_team_goals IS NULL AND home_team_name = 'Arsenal FC' AND mdate = '2016-11-27'
+Nov 27, 2016 3:43:57 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '2', visiting_team_goals = '1' WHERE home_team_goals IS NULL AND home_team_name = 'Watford FC' AND mdate = '2016-11-27'
+Nov 27, 2016 3:44:17 PM proj sqlLog
+INFO: UPDATE game SET home_team_goals = '2', visiting_team_goals = '1' WHERE home_team_goals IS NULL AND home_team_name = 'Watford FC' AND mdate = '2016-11-27'
+Nov 27, 2016 3:51:41 PM proj sqlLog
+INFO: UPDATE player SET T_name = 'Stoke City WHERE fname = + 'Aaron' AND lname = 'Ramsey'
+Nov 27, 2016 3:52:18 PM proj sqlLog
+INFO: UPDATE player SET T_name = 'Stoke City' WHERE fname = + 'Aaron' AND lname = 'Ramsey'
+Nov 27, 2016 3:52:38 PM proj sqlLog
+INFO: UPDATE player SET T_name = 'no' WHERE fname = + 'adaw' AND lname = 'adwda'
+Nov 27, 2016 3:53:37 PM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 27, 2016 4:09:01 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/'11'/%' UNION ALLSELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals FROM gameWHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016/'11'/%' 
+Nov 27, 2016 4:10:02 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' UNION ALLSELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals FROM gameWHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' 
+Nov 27, 2016 4:10:42 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' UNION ALL SELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals FROM gameWHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' 
+Nov 27, 2016 4:12:00 PM proj sqlLog
+INFO: (SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = '11' AND mdate LIKE '2016/-1/%' )UNION ALL (SELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals FROM gameWHERE visiting_team_name = '11' AND mdate LIKE '2016/-1/%' )
+Nov 27, 2016 4:12:04 PM proj sqlLog
+INFO: (SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' )UNION ALL (SELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals FROM gameWHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' )
+Nov 27, 2016 4:13:04 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' 
+Nov 27, 2016 4:14:14 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11/%' 
+Nov 27, 2016 4:14:32 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11/__' 
+Nov 27, 2016 4:15:44 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016/11%' 
+Nov 27, 2016 4:16:56 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City
+Nov 27, 2016 4:17:24 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City'
+Nov 27, 2016 4:18:19 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11%' 
+Nov 27, 2016 4:19:26 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11% 
+Nov 27, 2016 4:20:03 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = '11' AND mdate LIKE '2016-11-08' 
+Nov 27, 2016 4:20:07 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-08' 
+Nov 27, 2016 4:21:11 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'SStoke City' AND mdate LIKE 2016-11-08 
+Nov 27, 2016 4:21:29 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-08 
+Nov 27, 2016 4:22:49 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate = '2016-11-08' 
+Nov 27, 2016 4:23:22 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '%' 
+Nov 27, 2016 4:23:52 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdateFROM game WHERE home_team_name = 'Stoke City'
+Nov 27, 2016 4:26:20 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City'
+Nov 27, 2016 4:28:06 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%
+Nov 27, 2016 4:28:43 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11%
+Nov 27, 2016 4:29:15 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-'11'%
+Nov 27, 2016 4:31:14 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-06'
+Nov 27, 2016 4:31:37 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Manchester Unitied' AND mdate LIKE '2016-11-06'
+Nov 27, 2016 4:32:02 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Hull City' AND mdate LIKE '2016-11-06'
+Nov 27, 2016 4:32:40 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Hull City' AND mdate LIKE '2016-%'
+Nov 27, 2016 4:33:14 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Hull City' AND mdate LIKE '2016-1%'
+Nov 27, 2016 4:33:41 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Hull City' AND mdate LIKE '2016-1%'
+Nov 27, 2016 4:34:16 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Hull City' AND mdate LIKE '2016-1-%'
+Nov 27, 2016 4:34:43 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:35:48 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%' UNION ALL SELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals FROM game WHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:36:17 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_goals, visiting_team_name, visiting_team_goals, mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%' UNION ALL SELECT visiting_team_name, visiting_team_goals, home_team_name, home_team_goals, mdate FROM game WHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:41:47 PM proj sqlLog
+INFO: SELECT home_team_name AS tName, home_team_goals AS tScore, visiting_team_name AS oName, visiting_team_goals AS oScore , mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%' UNION ALL SELECT visiting_team_name AS tName, visiting_team_goals AS tScore, home_team_name AS oName, home_team_goals AS oScore, mdate FROM game WHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:42:45 PM proj sqlLog
+INFO: SELECT home_team_name AS tName, home_team_goals AS tScore, visiting_team_name AS oName, visiting_team_goals AS oScore , mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%' UNION ALL SELECT visiting_team_name AS tName, visiting_team_goals AS tScore, home_team_name AS oName, home_team_goals AS oScore, mdate FROM game WHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:43:13 PM proj sqlLog
+INFO: SELECT home_team_name AS tName, home_team_goals AS tScore, visiting_team_name AS oName, visiting_team_goals AS oScore , mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-11-%' UNION ALL SELECT visiting_team_name AS tName, visiting_team_goals AS tScore, home_team_name AS oName, home_team_goals AS oScore, mdate FROM game WHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:44:05 PM proj sqlLog
+INFO: SELECT home_team_name AS tName, home_team_goals AS tScore, visiting_team_name AS oName, visiting_team_goals AS oScore , mdate FROM game WHERE home_team_name = 'Chelsea FC' AND mdate LIKE '2016-11-%' UNION ALL SELECT visiting_team_name AS tName, visiting_team_goals AS tScore, home_team_name AS oName, home_team_goals AS oScore, mdate FROM game WHERE visiting_team_name = 'Chelsea FC' AND mdate LIKE '2016-11-%'
+Nov 27, 2016 4:47:53 PM proj sqlLog
+INFO: UPDATE player SET T_name = 'Stoke City' WHERE fname = + 'Adam' AND lname = 'Smith'
+Nov 27, 2016 4:47:53 PM proj sqlLog
+INFO: SELECT fname, lname FROM player WHERE T_name = 'Stoke City'
+Nov 27, 2016 4:48:54 PM proj sqlLog
+INFO: UPDATE player SET T_name = '-1-1' WHERE fname = + 'Adam Smith' AND lname = '-1'
+Nov 27, 2016 4:49:04 PM proj sqlLog
+INFO: UPDATE player SET T_name = 'Chelsea FC' WHERE fname = + 'Adam' AND lname = 'Smith'
+Nov 27, 2016 4:49:04 PM proj sqlLog
+INFO: SELECT fname, lname FROM player WHERE T_name = 'Chelsea FC'
+Nov 27, 2016 4:49:39 PM proj sqlLog
+INFO: UPDATE player SET T_name = 'Stoke City' WHERE fname = + 'Adam' AND lname = 'Smith'
+Nov 27, 2016 4:49:39 PM proj sqlLog
+INFO: SELECT fname, lname FROM player WHERE T_name = 'Stoke City'
+Nov 27, 2016 7:11:21 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:11:21 PM proj sqlLog
+INFO: SELECT home_team_name, home_team_score, visiting_team_name, visiting_team_score FROM game WHERE home_team_score IS NOT NULL AND visiting_team_score IS NOT NULL
+Nov 27, 2016 7:13:53 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:13:53 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_score IS NOT NULL AND visiting_team_score IS NOT NULL
+Nov 27, 2016 7:15:01 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:15:01 PM proj sqlLog
+INFO: SELECT home_team_name, visiting_team_name, home_team_goals, visiting_team_goals FROM game WHERE home_team_score IS NOT NULL AND visiting_team_score IS NOT NULL
+Nov 27, 2016 7:15:29 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:15:29 PM proj sqlLog
+INFO: SELECT home_team_name, visiting_team_name, home_team_goals, visiting_team_goals FROM game WHERE home_team_goals IS NOT NULL AND visiting_team_goals IS NOT NULL
+Nov 27, 2016 7:17:53 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:17:53 PM proj sqlLog
+INFO: SELECT home_team_name, visiting_team_name, home_team_goals, visiting_team_goals FROM game WHERE home_team_goals IS NOT NULL AND visiting_team_goals IS NOT NULL
+Nov 27, 2016 7:20:22 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:20:22 PM proj sqlLog
+INFO: SELECT home_team_name, visiting_team_name, home_team_goals, visiting_team_goals FROM game WHERE home_team_goals IS NOT NULL AND visiting_team_goals IS NOT NULL
+Nov 27, 2016 7:23:36 PM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 27, 2016 7:23:42 PM proj sqlLog
+INFO: SELECT fname,lname, player.T_name FROM player INNER JOIN team ON player.T_name = team.T_name WHERE player.T_name ='Stoke City'
+Nov 27, 2016 7:23:45 PM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL 
+Nov 27, 2016 7:27:17 PM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 27, 2016 7:27:17 PM proj sqlLog
+INFO: SELECT home_team_name, visiting_team_name, home_team_goals, visiting_team_goals FROM game WHERE home_team_goals IS NOT NULL AND visiting_team_goals IS NOT NULL
+Nov 27, 2016 7:28:08 PM proj sqlLog
+INFO: SELECT home_team_name AS tName, home_team_goals AS tScore, visiting_team_name AS oName, visiting_team_goals AS oScore , mdate FROM game WHERE home_team_name = 'Stoke City' AND mdate LIKE '2016-10-%' UNION ALL SELECT visiting_team_name AS tName, visiting_team_goals AS tScore, home_team_name AS oName, home_team_goals AS oScore, mdate FROM game WHERE visiting_team_name = 'Stoke City' AND mdate LIKE '2016-10-%'
+Nov 28, 2016 9:26:21 AM proj sqlLog
+INFO: SELECT fname,lname, team.T_name, stadium_name, city FROM team JOIN manager ON team.manager_id = manager.manager_id
+Nov 28, 2016 9:26:26 AM proj sqlLog
+INFO: SELECT T_name FROM team 
+Nov 28, 2016 9:26:26 AM proj sqlLog
+INFO: SELECT home_team_name, visiting_team_name, home_team_goals, visiting_team_goals FROM game WHERE home_team_goals IS NOT NULL AND visiting_team_goals IS NOT NULL
+Nov 28, 2016 9:26:41 AM proj sqlLog
+INFO: SELECT * FROM game WHERE home_team_goals IS NULL AND visiting_team_goals IS NULL 
